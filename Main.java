@@ -22,7 +22,6 @@ public class Main {
 				+ " seconds");
 		System.out.println("Runtime: " + elapsedMinutes 
 				+ " minutes");
-		//System.out.println(test.getMinSet());
 		
 	}
 	
@@ -105,7 +104,7 @@ public class Main {
 				System.out.println(board.toString());
 			}
 		}
-    }
+    	}
 
 	public static void evaluatePlanarTile(int i, int j, int[][] arr, 
 			int rows, int cols) {
