@@ -13,7 +13,7 @@ public class Planar extends Board {
 	}
 	
 	@Override
-    public void evaluateBoard(String board) {
+    	public void evaluateBoard(String board) {
 		int[][] arr = new int[getRows()][getCols()];
 		int i = 0;
 		int j = 0;
@@ -52,7 +52,7 @@ public class Planar extends Board {
 		if (detTiles == getBoardSize()) {
 			addMinSet(board.toString());
 		}
-    }
+    	}
 
 	// Recursive method to evaluate tiles
 	public void evaluateTile(int i, int j, int[][] arr) {
