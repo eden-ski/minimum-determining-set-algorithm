@@ -10,7 +10,7 @@ public class Main {
 	
 	public static void main(String[] args) {
 		long startTime = System.currentTimeMillis();
-		Board test = new Torus(5, 7);
+		Board test = new Torus(4, 4);
 		System.out.println("Size: " + test.getRows() + "*" 
 				+ test.getCols());
 		System.out.println("Min det set size: " 
