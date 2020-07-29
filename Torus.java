@@ -13,7 +13,7 @@ public class Torus extends Board {
 	}
 	
 	@Override
-    public void evaluateBoard(String board) {
+    	public void evaluateBoard(String board) {
 		if (board.charAt(0) == '1') {	// Efficiency
 			// Converts binary representation of board into array
 			// for easier processing
@@ -48,7 +48,7 @@ public class Torus extends Board {
 				addMinSet(board.toString());
 			}
 		}
-    }
+   	}
 
 	// Recursive method to evaluate tiles
 	public void evaluateTile(int i, int j, int[][] arr) {
