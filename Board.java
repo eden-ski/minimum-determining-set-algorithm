@@ -49,49 +49,49 @@ public abstract class Board {
 	
 	// Calls overridden method
 	public void evaluate(String board) {
-        evaluateBoard(board);
-    }
+        	evaluateBoard(board);
+    	}
 	
 	// Overridden methods (abstract)
 	abstract int findMinSetSize();
 
-    abstract void evaluateBoard(String board);
-    
-    // Set methods
-    public void setRows(int rows) {
-    	this.rows = rows;
-    }
-    
-    public void setCols(int cols) {
-    	this.cols = cols;
-    }
-    
-    public void addMinSet(String board) {
-    	minSet.add(board);
-    }
-    
-    // Accessor methods
- 	public int getRows() {
- 		return rows;
- 	}
- 	
- 	public int getCols() {
- 		return cols;
- 	}
- 	
- 	public int getBoardSize() {
- 		return boardSize;
- 	}
- 	
- 	public int getNumberOfMinSets() {
- 		return minSet.size();
- 	}
- 	
- 	public int getMinSetSize() {
- 		return minSetSize;
- 	}
- 	
- 	public List<String> getMinSet() {
- 		return minSet;
- 	}
+	abstract void evaluateBoard(String board);
+
+	// Set methods
+	public void setRows(int rows) {
+		this.rows = rows;
+	}
+
+	public void setCols(int cols) {
+		this.cols = cols;
+	}
+
+	public void addMinSet(String board) {
+		minSet.add(board);
+	}
+
+	// Accessor methods
+	public int getRows() {
+		return rows;
+	}
+
+	public int getCols() {
+		return cols;
+	}
+
+	public int getBoardSize() {
+		return boardSize;
+	}
+
+	public int getNumberOfMinSets() {
+		return minSet.size();
+	}
+
+	public int getMinSetSize() {
+		return minSetSize;
+	}
+
+	public List<String> getMinSet() {
+		return minSet;
+	}
 }
